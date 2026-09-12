@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- Training scaffold for candidate segmentation backbones on BDAPPV (refs #11):
+  `train.py` / `eval.py`, `configs/`, quick-experiment scripts
+  (`scripts/run_quick.sh`, `scripts/upload_results.sh`) and `experiments/`
+  result summaries. Weights and runs are gitignored, never committed.
+
 ## [1.0] - 2026-06-17
 
 First tagged stable release — pipeline validated end-to-end.
